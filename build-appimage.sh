@@ -53,7 +53,7 @@ cp Data/linux-env.sh ${APPDIR_HOOKS}
 mkdir -p AppDir
 ./Tools/linuxdeploy \
 	--appdir=./AppDir \
-	-e $1/Binaries/dolphin-emu \
+	-e ./build/Binaries/dolphin-emu \
 	-d ./Data/slippi-online.desktop \
 	-i ./Data/dolphin-emu.png
 
