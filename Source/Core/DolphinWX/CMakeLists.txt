@@ -133,7 +133,7 @@ if(wxWidgets_FOUND)
 	add_executable("${DOLPHIN_EXE}" ${SRCS} ${GUI_SRCS})
 	target_link_libraries("${DOLPHIN_EXE}" ${LIBS} ${WXLIBS})
 
-	target_link_libraries("${DOLPHIN_EXE}" PUBLIC slippi-rust-extensions)
+	target_link_libraries("${DOLPHIN_EXE}" PUBLIC slippi_rust_extensions)
 
 	if(APPLE)
 		include(BundleUtilities)
